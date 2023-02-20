@@ -1,0 +1,136 @@
+.whole {
+    width: 100%;
+    text-align: center;
+    margin-top: 3rem;
+
+    .bordertop,
+    .borderbottom {
+        margin: auto;
+        width: 17rem;
+        height: 4rem;
+    }
+
+    .borderbottom {
+        margin-top: -1rem;
+    }
+
+    h1 {
+        margin-top: -.5rem;
+    }
+
+    .servicedivs {
+
+        margin: auto;
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+
+
+        .one,
+        .two,
+        .three {
+            width: 30%;
+            box-shadow: inset 0px 6px 15px 3px rgba(0, 0, 0, 0.585);
+            height: 38rem;
+            position: relative;
+            background-color: skyblue;
+        }
+
+        .oneinner,
+        .twoinner,
+        .threeinner {
+
+            left: 10%;
+            bottom: -5rem;
+            position: absolute;
+            background-color: grey;
+            width: 80%;
+            height: 13rem;
+
+            img {
+                height: 100%;
+                margin: auto;
+                width: 90%;
+            }
+        }
+
+
+
+
+    }
+
+
+
+
+}
+
+
+
+@media (min-width:1024px) and (max-width:1208px) {
+
+    .one,
+    .two,
+    .three {
+        height: 30rem !important;
+    }
+
+    .oneinner,
+    .twoinner,
+    .threeinner {
+
+        height: 9rem !important;
+
+
+    }
+
+}
+
+
+@media (min-width:768px) and (max-width:1023px) {
+
+    .one,
+    .two,
+    .three {
+        height: 25rem !important;
+    }
+
+    .oneinner,
+    .twoinner,
+    .threeinner {
+
+        height: 7rem !important;
+
+
+    }
+
+}
+
+
+@media (min-width:465px) and (max-width:767px) {
+
+    .bordertop,
+    .borderbottom {
+        width: 16rem !important;
+        height: 3rem !important;
+    }
+
+    .one,
+    .two,
+    .three {
+        height: 18rem !important;
+    }
+
+    .oneinner,
+    .twoinner,
+    .threeinner {
+
+        height: 5rem !important;
+
+
+        bottom: -2rem !important;
+        height: 13rem;
+
+    }
+
+
+}

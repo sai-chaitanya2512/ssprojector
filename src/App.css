@@ -1,0 +1,12 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width:465px) and (max-width:767px) {
+  .bordertop,
+  .borderbottom {
+      width: 16rem !important;
+      height: 3rem !important;
+  }
+
+}

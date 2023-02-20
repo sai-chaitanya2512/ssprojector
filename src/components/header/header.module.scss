@@ -1,0 +1,102 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: .5rem 0rem;
+    height: 8rem;
+    backdrop-filter: blur(4px);
+    justify-content: space-around;
+    position: fixed;
+    top: 0rem;
+    background-color: rgba(128, 128, 128, 0.178);
+    z-index: 10;
+
+    h1 {
+        color: white;
+    }
+
+
+    .logo {
+        width: 5rem;
+        height: 7rem;
+    }
+
+}
+
+ul {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    li {
+        box-shadow: 0px 4px 4px black;
+        font-weight: 700;
+        border-radius: 100px;
+        padding: .65rem;
+        background-color: skyblue;
+        font-size: 1.35rem;
+        transition: .25s;
+
+    }
+
+}
+
+li:hover {
+    transition: .25s;
+    color: white;
+    scale: 1.1;
+    background-color: rgb(65, 201, 255);
+    cursor: pointer;
+
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1208px) {
+    ul {
+        width: 60%;
+    }
+
+    li {
+        font-size: 1rem !important;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    ul {
+        width: 60%;
+    }
+
+    li {
+        font-size: 1rem !important;
+    }
+    .logo {
+        width: 4rem  !important;
+        height: 6rem !important;
+    }
+
+}
+
+@media screen and (min-width:465px) and (max-width:767px) {
+   .navbar{
+    flex-direction: space-around;
+    height: 5rem;
+
+   }
+   
+    ul {
+        width: 80%;
+    }
+
+    li {
+        font-size: .9rem !important;
+        padding: .30rem !important;
+
+    }
+    .logo {
+        width: 2.5rem  !important;
+        height: 4rem !important;
+    }
+
+}

@@ -1,0 +1,177 @@
+.whole {
+    width: 100%;
+    height: 47rem;
+
+    .imag {
+        // backdrop-filter: opacity(0);
+        // opacity: 0.5;
+        width: 100%;
+        height: 100%;
+        z-index: -5;
+        position: relative;
+    }
+
+    .floatingpara {
+        position: absolute;
+        top: 15%;
+        left: 31%;
+        text-align: center;
+        font-size: 2rem;
+
+        h3 {
+            color: white;
+            text-shadow: 2px 2px 2px black;
+            text-transform: capitalize;
+        }
+
+        h1 {
+            color: black;
+            text-shadow: 0px 0px 3px white;
+            text-transform: uppercase;
+        }
+
+        h4 {
+            color: white;
+            text-shadow: 2px 2px 2px black;
+        }
+
+    }
+
+    .six,
+    .sixone,
+    .sixtwo {
+        width: 20rem;
+        height: 14rem;
+        // left: 5rem;
+        top: 10rem;
+        z-index: -3;
+        border: 5px solid white;
+        position: absolute;
+    }
+
+    .six {
+        top: 45%;
+        right: 20rem;
+    }
+
+    .sixone {
+        top: 60%;
+        right: 8rem;
+    }
+
+    .sixtwo {
+        top: 60%;
+        z-index: -4;
+        right: 33rem;
+    }
+
+}
+
+
+@media (min-width:1024px) and (max-width:1208px) {
+
+    .six,
+    .sixone,
+    .sixtwo {
+        width: 16rem !important;
+        height: 10rem !important;
+        // top: 10rem !important;
+    }
+
+    .six {
+        top: 58% !important;
+        right: 15rem !important;
+    }
+
+    .sixone {
+        top: 70% !important;
+        right: 5rem !important;
+    }
+
+    .sixtwo {
+        top: 70% !important;
+        right: 23rem !important;
+    }
+
+    .floatingpara {
+
+        top: 15% !important;
+        left: 21.5% !important;
+        font-size: 1.75rem !important;
+
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+
+    .six,
+    .sixone,
+    .sixtwo {
+        width: 16rem !important;
+        height: 10rem !important;
+        // top: 10rem !important;
+    }
+
+    .six {
+        top: 55% !important;
+        right: 15rem !important;
+    }
+
+    .sixone {
+        top: 65% !important;
+        right: 5rem !important;
+    }
+
+    .sixtwo {
+        top: 65% !important;
+        right: 23rem !important;
+    }
+
+    .floatingpara {
+
+        top: 15% !important;
+        left: 16% !important;
+        font-size: 1.5rem !important;
+    }
+
+    .whole {
+        height: 43rem;
+    }
+}
+
+
+@media (min-width:465px) and (max-width:767px) {
+
+    .six,
+    .sixone,
+    .sixtwo {
+        width: 10rem !important;
+        height: 6rem !important;
+        // top: 10rem !important;
+    }
+
+    .six {
+        top: 40% !important;
+        right: 10rem !important;
+    }
+
+    .sixone {
+        top: 45% !important;
+        right: 2rem !important;
+    }
+
+    .sixtwo {
+        top: 45% !important;
+        right: 15rem !important;
+    }
+
+    .floatingpara {
+        top: 10% !important;
+        left: 16% !important;
+        font-size: 1.2rem !important;
+    }
+
+    .whole {
+        height: 30rem;
+    }
+}

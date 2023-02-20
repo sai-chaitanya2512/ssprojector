@@ -1,0 +1,119 @@
+.whole {
+    width: 100%;
+    text-align: center;
+    margin-top: 6rem;
+
+    .bordertop,
+    .borderbottom {
+        margin: auto;
+        width: 17rem;
+        height: 4rem;
+    }
+
+    .borderbottom {
+        margin-top: -1rem;
+    }
+
+    h1 {
+        margin-top: -.5rem;
+    }
+
+    .par {
+        width: 100%;
+    }
+
+    .holdingpara {
+        position: relative;
+        width: 40%;
+        margin: auto;
+        height: 6rem;
+        font-size: 1.2rem;
+
+        .quote {
+            text-align: center;
+        }
+
+        .quote2 {
+            position: absolute;
+            text-align: right;
+            right: 0px;
+            top: 1rem;
+            // padding-right: 27rem;
+        }
+    }
+
+    .knowmore {
+        border: none;
+        box-shadow: 0px 4px 4px black;
+        font-weight: 700;
+        border-radius: 100px;
+        padding: .65rem;
+        background-color: skyblue;
+        font-size: 1.2rem;
+        transition: .25s;
+    }
+
+    .knowmore:hover {
+        transition: .25s;
+        color: white;
+        scale: 1.1;
+        background-color: rgb(65, 201, 255);
+        cursor: pointer;
+    }
+
+}
+
+
+@media (min-width:1024px) and (max-width:1208px) {
+    .holdingpara {
+        width: 70% !important;
+        font-size: 1.2rem;
+
+        .quote2 {
+            right: 0px;
+            top: 1rem;
+        }
+    }
+}
+
+
+
+@media (min-width:768px) and (max-width:1023px) {
+    .holdingpara {
+        width: 70% !important;
+        font-size: 1rem !important;
+
+        .quote2 {
+            right: 0px;
+            top: 1rem;
+        }
+    }
+}
+
+@media (min-width:465px) and (max-width:767px) {
+    .holdingpara {
+        width: 100% !important;
+        font-size: .85rem !important;
+
+        .quote2 {
+            right: 0px;
+            top: 1rem;
+        }
+    }
+
+    .knowmore
+    {
+        font-size: 1rem !important;
+    }
+
+    h1
+    {
+        font-size: 1.5rem;
+    }
+    .bordertop,
+    .borderbottom {
+        width: 16rem !important;
+        height: 3rem !important;
+    }
+
+}
