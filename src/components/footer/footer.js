@@ -4,7 +4,7 @@ import { FacebookFilled, TwitterSquareFilled, InstagramFilled, YoutubeFilled, Go
 const Footer = () => {
   return (
     <div className={footsty.juva}>
-      <div className={footsty.whole}>
+      <div className={footsty.whole} id="contact">
 
 
         <div className={footsty.address}>
@@ -105,7 +105,7 @@ const Footer = () => {
             <div></div>
             <div><h2>9182351013,</h2></div>
             <div></div>
-            <div><h2>9491499194,</h2></div>
+            <div><h2>9392252575,</h2></div>
           </div>
         </div>
 

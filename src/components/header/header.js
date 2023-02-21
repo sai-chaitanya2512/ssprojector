@@ -9,10 +9,10 @@ const Header = () => {
                 <img className={headstyle.logo} src="https://res.cloudinary.com/dli6rliuj/image/upload/v1676715197/LOGO_SS_NEW_png_tkv1ei.png" />
 
                 <ul type="none">
-                    <li>About Us</li>
-                    <li>Services</li>
-                    <li>Portfolio</li>
-                    <li>Contact details</li>
+                    <li><a style={{textDecoration:"none",color:"black"}} href='#contact'>About Us</a></li>
+                    <li><a style={{textDecoration:"none",color:"black"}} href='#services'> Services</a></li>
+                    <li><a style={{textDecoration:"none",color:"black"}} href='#portfolio'>Portfolio</a></li>
+                    <li><a style={{textDecoration:"none",color:"black"}} href='#contact'>Contact details</a></li>
                 </ul>
 
             </div>

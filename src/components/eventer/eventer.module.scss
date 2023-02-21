@@ -90,30 +90,67 @@
     }
 }
 
+
+
+
 @media (min-width:465px) and (max-width:767px) {
     .holdingpara {
         width: 100% !important;
         font-size: .85rem !important;
 
         .quote2 {
-            right: 0px;
+            right: 0px !important ;
             top: 1rem;
         }
     }
 
-    .knowmore
-    {
+    .knowmore {
         font-size: 1rem !important;
     }
 
-    h1
-    {
+    h1 {
         font-size: 1.5rem;
     }
+
     .bordertop,
     .borderbottom {
         width: 16rem !important;
         height: 3rem !important;
+    }
+
+}
+
+
+
+@media (min-width:320px) and (max-width:464px) {
+
+    .holdingpara {
+        width: 100% !important;
+        font-size: .65rem !important;
+
+        .quote2 {
+            right: 1rem !important;
+            top: 1rem;
+        }
+    }
+
+    .knowmore {
+        font-size: .8rem !important;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    .bordertop,
+    .borderbottom {
+        width: 16rem !important;
+        height: 3rem !important;
+    }
+
+    .whole {
+        margin-top: 2rem;
+
     }
 
 }

@@ -7,8 +7,9 @@
     flex-wrap: wrap-reverse;
 
     .address {
-        padding: 2rem;
-        width: 50%;
+        // margin-top: 1rem;
+        padding: 0rem 2rem;
+        width: 45%;
         text-align: left;
 
         h1 {
@@ -249,8 +250,105 @@
 
     }
 
-    h3
-    {
+    h3 {
+        font-size: 1rem;
+    }
+
+}
+
+
+@media (min-width:320px) and (max-width:464px) {
+
+    .formplace {
+        width: fit-content;
+        margin: auto;
+        background-color: white;
+        right: 3.5rem !important;
+        flex-direction: column;
+        display: flex;
+        background-color: none !important;
+        width: 19rem;
+    }
+
+    .name {
+        padding: 1rem;
+        font-size: .7rem !important;
+        margin-top: 1rem;
+        background-color: white;
+
+    }
+
+    .whiter {
+        padding: 1rem;
+        background-color: white;
+
+        div {
+
+            input {
+                // background-color: red;
+                margin-left: 10px;
+                margin-top: 10px;
+                width: 90%;
+                height: 2rem;
+                border: none;
+                border-bottom: 1px solid black;
+            }
+
+        }
+    }
+
+    button {
+        margin-top: 2rem;
+        // margin-left: 2rem;
+        width: 15rem;
+        height: 2rem;
+        background-color: skyblue;
+        border: none;
+    }
+
+    .para {
+        right: 5rem !important;
+        font-size: .8rem !important;
+    }
+
+    .formplace {
+        position: block !important;
+    }
+
+    .whole {
+        display: none;
+    }
+
+    .change {
+        display: block !important;
+
+        .address {
+            padding: 2rem;
+            // width: 100%;
+            text-align: left;
+            font-size: .65rem !important;
+
+            h1 {
+                width: fit-content;
+                margin: auto;
+                text-align: center !important;
+                border-bottom: 3px solid black;
+            }
+
+            .grid {
+                width: 50% !important;
+                display: grid;
+                grid-template-columns: repeat(2, auto);
+
+                div {
+                    height: 2rem;
+                }
+            }
+        }
+
+    }
+
+    h3 {
         font-size: 1rem;
     }
 

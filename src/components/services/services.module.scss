@@ -1,7 +1,22 @@
+@font-face {
+    font-family: market;
+    src: url(../../media/fonts/marketing-script-font/MarketingScriptShadow-lgZJy.ttf);
+}
+
+@font-face {
+    font-family: mr;
+    src: url(../../media/fonts/mr-bedfort-font/MrBedfort-06Kz.ttf);
+}
+
 .whole {
     width: 100%;
     text-align: center;
     margin-top: 3rem;
+
+
+
+
+
 
     .bordertop,
     .borderbottom {
@@ -25,6 +40,10 @@
         display: flex;
         justify-content: space-around;
 
+        .inerimg {
+            width: 100%;
+            height: 100%;
+        }
 
         .one,
         .two,
@@ -34,21 +53,28 @@
             height: 38rem;
             position: relative;
             background-color: skyblue;
+            // overflow: hidden;
         }
 
         .oneinner,
         .twoinner,
         .threeinner {
-
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: market;
+            font-size: 1rem;
             left: 10%;
             bottom: -5rem;
             position: absolute;
             background-color: grey;
             width: 80%;
             height: 13rem;
+            z-index: 5;
 
             img {
-                height: 100%;
+                height: 80%;
                 margin: auto;
                 width: 90%;
             }
@@ -79,8 +105,6 @@
     .threeinner {
 
         height: 9rem !important;
-
-
     }
 
 }
@@ -127,6 +151,37 @@
         height: 5rem !important;
 
 
+        bottom: -2rem !important;
+        height: 13rem;
+
+    }
+
+
+}
+
+@media (min-width:320px) and (max-width:464px) {
+
+    .whole {
+        margin-top: 1rem !important;
+    }
+
+    .bordertop,
+    .borderbottom {
+        width: 16rem !important;
+        height: 3rem !important;
+    }
+
+    .one,
+    .two,
+    .three {
+        height: 18rem !important;
+    }
+
+    .oneinner,
+    .twoinner,
+    .threeinner {
+
+        height: 5rem !important;
         bottom: -2rem !important;
         height: 13rem;
 

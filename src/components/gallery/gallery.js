@@ -9,12 +9,12 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
-import { Pagination } from "swiper";
+import { Autoplay, Pagination } from "swiper";
 
 
 const Gallery = () => {
     return (
-        <div className={galsty.whole}>
+        <div className={galsty.whole} id="portfolio">
 
             <div className={galsty.par}><img className={galsty.bordertop} src={bordertop} /></div>
             <h1> Gallery</h1>
@@ -23,39 +23,43 @@ const Gallery = () => {
             <Swiper
                 slidesPerView={3}
                 spaceBetween={30}
+                autoplay={{
+                    delay: 1500,
+                    disableOnInteraction: false
+                }}
                 loop={true}
                 pagination={{
-                  clickable: true,
+                    clickable: true,
                 }}
-                modules={[Pagination]}
+                modules={[Autoplay, Pagination]}
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <img className={galsty.innerimg} src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                    <img className={galsty.innerimg} src="https://rb.gy/1ijdoe" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className={galsty.innerimg} src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                    <img className={galsty.innerimg} src="https://rb.gy/ubrgbc" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className={galsty.innerimg} src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                    <img className={galsty.innerimg} src="https://rb.gy/cypxts" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className={galsty.innerimg} src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                    <img className={galsty.innerimg} src="https://rb.gy/lipovd" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className={galsty.innerimg} src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                    <img className={galsty.innerimg} src="https://rb.gy/ze0brf" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className={galsty.innerimg} src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                    <img className={galsty.innerimg} src="https://rb.gy/drcluk" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className={galsty.innerimg} src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                    <img className={galsty.innerimg} src="https://rb.gy/y6gank" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className={galsty.innerimg} src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                    <img className={galsty.innerimg} src="https://rb.gy/fmisrd" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className={galsty.innerimg} src="https://swiperjs.com/demos/images/nature-9.jpg" />
+                    <img className={galsty.innerimg} src="https://rb.gy/6q53oj" />
                 </SwiperSlide>
             </Swiper>
 

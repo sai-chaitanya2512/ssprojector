@@ -3,13 +3,14 @@
     width: 100%;
     align-items: center;
     padding: .5rem 0rem;
-    height: 8rem;
+    height: 6rem;
     backdrop-filter: blur(4px);
     justify-content: space-around;
     position: fixed;
     top: 0rem;
-    background-color: rgba(128, 128, 128, 0.178);
+    background-color: white;
     z-index: 10;
+    border-bottom: 1px solid black;
 
     h1 {
         color: white;
@@ -17,8 +18,8 @@
 
 
     .logo {
-        width: 5rem;
-        height: 7rem;
+        width: 4rem;
+        // height: 7rem;
     }
 
 }
@@ -71,20 +72,21 @@ li:hover {
     li {
         font-size: 1rem !important;
     }
+
     .logo {
-        width: 4rem  !important;
+        width: 4rem !important;
         height: 6rem !important;
     }
 
 }
 
 @media screen and (min-width:465px) and (max-width:767px) {
-   .navbar{
-    flex-direction: space-around;
-    height: 5rem;
+    .navbar {
+        flex-direction: space-around;
+        height: 4rem;
 
-   }
-   
+    }
+
     ul {
         width: 80%;
     }
@@ -94,9 +96,36 @@ li:hover {
         padding: .30rem !important;
 
     }
+
     .logo {
-        width: 2.5rem  !important;
+        width: 2.5rem !important;
         height: 4rem !important;
+    }
+
+}
+
+@media screen and (min-width:320px) and (max-width:464px) {
+
+    .navbar {
+        flex-direction: space-between;
+        height: 4rem;
+    }
+
+
+    ul {
+        width: 80%;
+    }
+
+
+    li {
+        font-size: .6rem !important;
+        padding: .30rem !important;
+
+    }
+
+    .logo {
+        width: 2rem !important;
+        // height: 4rem !important;
     }
 
 }

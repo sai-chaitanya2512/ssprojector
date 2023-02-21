@@ -135,3 +135,31 @@
         height: 3rem !important;
     }
 }
+
+@media (min-width:320px) and (max-width:464px) {
+
+    .onepic,
+    .twopic,
+    .threepic {
+        width: 3rem !important;
+    }
+
+
+    .revione,
+    .revitwo,
+    .revithree {
+
+        p {
+            font-size: .5rem !important;
+        }
+    }
+
+ 
+
+
+    .bordertop,
+    .borderbottom {
+        width: 16rem !important;
+        height: 3rem !important;
+    }
+}
